@@ -80,8 +80,25 @@
 			<version>${core.version}</version>
 		</dependency>
 		
+		<!-- <dependency>
+		    <groupId>com.github.noelmd</groupId>
+		    <artifactId>hpe-seur-core-lib</artifactId>
+		    <version>${core.version}</version>
+		</dependency> -->
+		
 	</dependencies>
-
+	
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+		<repository>
+			<id>noelmd-maven-repository</id>
+			<url>https://github.hpe.com/noel-mamoghli-diaz/core-lib/master</url>
+		</repository>
+	</repositories>
+	
 	<build>
 		<plugins>
 			<plugin>
