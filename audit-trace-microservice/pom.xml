@@ -93,10 +93,13 @@
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
+		
 		<repository>
-			<id>noelmd-maven-repository</id>
-			<url>https://github.hpe.com/noel-mamoghli-diaz/core-lib/master</url>
+		    <id>git-noel-hpe-seur</id>
+		    <name>noelmd's Git based repo</name>
+		    <url>https://github.com/noelmd/hpe-seur/raw/master/</url>
 		</repository>
+
 	</repositories>
 	
 	<build>
