@@ -97,7 +97,7 @@
 		<repository>
 		    <id>git-noel-hpe-seur</id>
 		    <name>noelmd's Git based repo</name>
-		    <url>https://github.com/noelmd/hpe-seur/master/</url>
+		    <url>https://github.com/noelmd/hpe-seur/raw/master/</url>
 		</repository>
 
 	</repositories>
