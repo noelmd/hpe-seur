@@ -80,9 +80,9 @@
 			<version>${core.version}</version>
 		</dependency>
 		
-		<!-- <dependency>
+		<!--  <dependency>
 		    <groupId>com.github.noelmd</groupId>
-		    <artifactId>hpe-seur-core-lib</artifactId>
+		    <artifactId>maven-repo</artifactId>
 		    <version>${core.version}</version>
 		</dependency> -->
 		
@@ -95,9 +95,13 @@
 		</repository>
 		
 		<repository>
-		    <id>git-noel-hpe-seur</id>
-		    <name>noelmd's Git based repo</name>
-		    <url>https://raw.github.com/noelmd/hpe-seur/</url>
+		    <id>github-maven-repo</id>
+		    <name>maven-repo</name>
+		    <url>https://github.com/noelmd/maven-repo/blob/master</url>
+		    <snapshots>
+	            <enabled>true</enabled>
+	            <updatePolicy>always</updatePolicy>
+        	</snapshots>
 		</repository>
 
 	</repositories>
